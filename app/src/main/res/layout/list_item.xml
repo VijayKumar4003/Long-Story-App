@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:background="#000"
+        android:layout_height="wrap_content">
+
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+   <com.github.siyamed.shapeimageview.CircularImageView
+           android:id="@+id/banner1"
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:clickable="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+
+   />
+        <TextView
+                android:id="@+id/title"
+                android:text="Web Developer"
+                android:layout_width="140dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:textSize="16sp"
+                android:textColor="#FF9800"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+        <TextView
+                android:id="@+id/time"
+                android:text="24 min ago"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:textSize="14sp"
+                android:textColor="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <View
+          android:id="@+id/view"
+          android:layout_marginTop="50dp"
+          android:layout_marginStart="100dp"
+          android:layout_marginEnd="20dp"
+          android:layout_width="match_parent"
+          android:layout_height="0.5dp"
+          android:background="#F1EEEE"
+    />
+
+    <TextView
+            android:id="@+id/comment"
+            android:text="Oh cool! Subscribe to my Dino Code Academy YouTube Channel to get more Stuff :)"
+            android:layout_below="@+id/view"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="100dp"
+            android:textSize="14sp"
+            android:textColor="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+    <View
+            android:id="@+id/view2"
+            android:layout_below="@+id/comment"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#F1EEEE" />
+
+</RelativeLayout>

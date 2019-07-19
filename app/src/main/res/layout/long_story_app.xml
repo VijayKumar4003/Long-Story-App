@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activites.MainActivity">
+
+
+    <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+    />
+
+    <include android:id="@+id/toolbar"
+             layout="@layout/toolbar"
+    />
+    <LinearLayout
+            android:id="@+id/bottom"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_height="wrap_content">
+        <TextView
+                android:id="@+id/textView"
+                android:text="Write a Comment"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:padding="15dp"
+                android:textColor="#fff"
+                android:background="#810491"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+    </LinearLayout>
+
+</RelativeLayout>
